@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indonesia</string>
+    <string name="nama">Nama : %1$s</string>
+    <string name="email">Email : %1$s</string>
+    <string name="website">Website : %1$s</string>
+    <string name="city">Kota : %1$s</string>
+    <string name="detail_user">Details Pengguna</string>
+</resources>

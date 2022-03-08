@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsUserActivity"
+    android:paddingHorizontal="@dimen/text_h2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_user"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_h1"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/text_h1"
+        />
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/full_names"
+        android:textSize="@dimen/text_h3"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="email"
+        android:textSize="@dimen/text_h3"
+        />
+    <TextView
+        android:id="@+id/tv_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/lorem"
+        android:textSize="@dimen/text_h3"
+        />
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/cities"
+        android:textSize="@dimen/text_h3"
+        />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JsonPlaceholder</string>
+    <string name="nama">Name : %1$s</string>
+    <string name="email">Email : %1$s</string>
+    <string name="website">Website : %1$s</string>
+    <string name="city">City : %1$s</string>
+    <string name="detail_user">Details User</string>
+</resources>
